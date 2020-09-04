@@ -1,0 +1,68 @@
+For control flow we use some keywords:
+
+1.if
+
+    if some_condition:
+       #execute some code
+
+2.elif
+
+    if some_condition:
+       #execute some code
+    elif some_other_condition:
+        #do somethign different
+    else:
+       #dp something else some code
+
+3.else
+
+    if some_condition:
+       #execute some code
+    else:
+       #dp something else some code
+
+
+Loops:
+
+The term iterable means you can "iterate" over the object.
+
+1. for
+
+    my_iterable = [1,2,3
+    for item_name in my_iterable:
+        print
+
+2. while
+
+    while some_boolean_condition:
+        #do_something
+
+break: Breaks out of the current closet enclosing loop
+continue: Goes to the top of the closet enclosing loop
+pass: does nothing at all
+
+
+Useful Operators:
+range(start range, end range, step size)
+enumerate() -> returns tuples
+zip(list1, list2) -> zips together 2 lists
+min(mylist)
+max(mylist)
+
+Random Library :
+1. Shuffle list
+from random import shuffle
+shuffle(mylist)
+
+2. Get Random integer
+from random import randint
+randint(0,100)
+
+List Comprehensions: Flatting of for loop
+
+List comprehensions are unique way of quickly creating a list with Python.
+
+mystring = "hello"
+mylist = [letter for letter in mystring]
+
+Result = ['h', 'e', 'l','l', 'o']
