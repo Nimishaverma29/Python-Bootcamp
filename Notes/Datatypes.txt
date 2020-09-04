@@ -1,0 +1,81 @@
+8 types of Datatypes:
+
+1. Integer - int -> whole numbers eg 3, 300
+2. Floating Point - float -> numbers with decimal point  eg 2.3, 4.6
+3. Strings - str -> ordered sequence of characters eg "hello" "Sammy"
+4. List - list -> ordered sequence of objects eg [10, "hello", "2000"]
+5. Dictionaries - dict -> Unordered key:value pair eg {"mykey": "value", "name": "Nimisha"}
+6. Tuples - tup -> Ordered immutable sequence of objects eg (10, "hello", 200.3)
+7. Sets - set -> Unordered collection of unique objects ed {"a", "b"}
+8. Boolean - bool -> Logical value indicating true or false
+
+Numbers FAQ
+
+1. What's the difference between floating point and an integer?
+
+An integer has no decimals in it, a floating point number can display digits past the decimal point.
+
+2. Why doesn't 0.1+0.2-0.3 equal 0.0 ?
+
+This has to do with floating point accuracy and computer's abilities to represent numbers in memory.
+
+Strings FAQ
+
+1. Are strings mutable?
+
+Strings are not mutable! (meaning you can't use indexing to change individual elements of a string)
+
+2. How do I create comments in my code?
+
+You can use the hashtag # to create comments in your code
+
+Lists Functions:
+append()-> concatenate in list
+pop()-> remove last string
+reverse()
+
+Lists FAQ
+
+1. How do I index a nested list? For example if I want to grab 2 from [1,1,[1,2]]?
+
+You would just add another set of brackets for indexing the nested list, for example: my_list[2][1] .
+
+Dictionaries:
+
+Dictionaries are unordered mappings for storing objects.
+It use key-value pairing.
+This key-value pair allows users to quickly grab objects without needing to know an index location.
+
+1. Do dictionaries keep an order? How do I print the values of the dictionary in order?
+
+Dictionaries are mappings and do not retain order! If you do want the capabilities of a
+dictionary but you would like ordering as well, check out the ordereddict object.
+
+
+When to use list and when to use Dictionaries:
+
+Dictionaries: Objects retrieved by Key name. unordered and cannot be saved.
+Lists: Objects retrieved by location. Ordered sequence can be indexed or sliced.
+
+Dictionaries Methods:
+.keys() -> returns all keys
+.values()-> returns all values
+.items()->returns all items
+
+Tuples
+Similar to lists however they are immutabile i.e once an element inside a tuple, it can not be resassigned.
+
+Tuples methods:
+.count('a')-> count of a in a tuple
+.index('a') -> returns first location in tuple
+
+Sets
+Unordered collection of unique elements. Meaning there can only be one representative of the same object.
+
+Input/Output files:
+mode= 'r' : read only
+mode= 'w' : write only (will overwrite files or create new!)
+mode= 'a' : append only (will add on to files)
+mode= 'r+' : is reading and writing
+mode= 'w+' : is writing and reading  (overwrites existing files or creates a new file!)
+
